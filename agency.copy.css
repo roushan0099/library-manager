@@ -1,9 +1,7 @@
  main {
    background-image: url(Artboard\ 1.png);
  }
- #service-grid  {
-  display: flex;
-}
+ 
  .intro-heading {
 font-size: 60%;
  }
