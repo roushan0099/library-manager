@@ -1,7 +1,13 @@
- main {
-   background-image: url(Artboard\ 1.png);
- }
- 
+
+.masthead marquee {
+  font-style: oblique;
+  font-size: 40%;
+  color: #FFA500;
+}
+
+
+
+
  .intro-heading {
 font-size: 60%;
  }
@@ -12,11 +18,16 @@ font-size: 60%;
  }
  #team h2 {
    font-size: 140%;
-   color:white;
- }
+   color: #FFA500;
+   text-align: center;
+   font-weight: 600;
+   font: bold;
+   padding-right: 2cm;
+   padding-top: 2cm;
+    }
  #team h4 {
    font-size: 90%;
-   color: white;
+   color: rgb(226, 211, 211);
  }
  #team p {
    font-size: 80%;
@@ -27,8 +38,10 @@ font-size: 60%;
  }
  #portfolio h2 {
   font-size: 140%;
-  color:white;
+  color: #FFA500;
+  padding-right: 2cm;
 }
+
 #portfolio h4 {
   font-size: 90%;
   color: white;
@@ -39,8 +52,10 @@ font-size: 60%;
 }
  #contact h2 {
   font-size: 140%;
-  color: white;
+  color: #FFA500;
+  padding-right: 2cm;
 }
+
 #contact h4 {
   font-size: 90%;
   color: white;
@@ -51,8 +66,11 @@ font-size: 60%;
 }
  #services h2 {
 font-size: 140%;
-color: white;
- }
+color: #FFA500;
+padding-right: 2cm;
+padding-top: 2cm;
+}
+ 
  #services h4 {
    font-size: 90%;
    color: white;
@@ -63,8 +81,10 @@ color: white;
  }
  #about h2 {
    font-size: 140%;
-   color: white;
- }
+   color: #FFA500;
+   padding-right: 2cm;
+  }
+ 
 #about h4 {
   font-size: 90%;
   color: white;
@@ -113,7 +133,7 @@ h6 {
 }
 
 .page-section {
-  padding: 100px 0;
+  width 100%;s
 }
 
 .page-section h2.section-heading {
@@ -253,7 +273,7 @@ img::-moz-selection {
 main.masthead {
   text-align: center;
   color: white;
-  
+  background-image: url(Artboard\ 1.png);
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -667,11 +687,24 @@ main.masthead .intro-text .intro-heading {
   margin-top: 0;
 }
 
+#login, #contact {
+ 
+  
+
+  border: 5px solid rgb(0, 0, 0);
+}
+
+
+#contact .container {
+  padding-bottom: 100px;
+  margin-left: 10%;
+}
 section#contact {
   background-color: #000000;
  
   background-repeat: no-repeat;
   background-position: center;
+  padding-bottom: 250px;
 }
 
 section#contact .section-heading {
@@ -681,6 +714,7 @@ section#contact .section-heading {
 section#contact .form-group {
   margin-bottom: 25px;
 }
+
 
 section#contact .form-group input,
 section#contact .form-group textarea {
@@ -703,7 +737,7 @@ section#contact .form-control:focus {
 
 section#contact ::-webkit-input-placeholder {
   font-weight: 700;
-  color: #ced4da;
+  color: #ced3d8;
   font-family: 'Montserrat', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
 }
 
@@ -728,6 +762,7 @@ section#contact :-ms-input-placeholder {
 .footer {
   padding: 25px 0;
   text-align: center;
+  padding-top: 40px;
 }
 
 .footer span.copyright {
